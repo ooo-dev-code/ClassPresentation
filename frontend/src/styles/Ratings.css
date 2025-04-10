@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #dedede;
+}
+
+.bgRatins {
+  background-color: #e2e2e2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.rate-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+
+.ratings-container {
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .stars {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  .star {
+    color: gray;
+  }
+  
+  .star.active {
+    color: gold;
+  }
+  
+  textarea {
+    margin-top: 1rem;
+    width: 100%;
+    height: 100px;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .submit {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:active {
+      background-color: #0056b3;
+    }
+  }
+  
+.button-see {
+  background-color: #00ffbb;
+  color: white;
+  text-shadow: #333 0px 1px 0px;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  &:hover {
+    background-color: #00cc99;
+  }
+}
+
+  .thought-card {
+    background-color: #88bdb4;
+    border: 3px solid #0077ff;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin: 1rem 0;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+
+  .thought-card h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+
+  .thought-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .thought-card .author {
+    font-size: 0.875rem;
+    color: #777;
+    margin-top: 1rem;
+  }
+
+  .thought-card:hover {
+    transform: translateY(-5px);
+    transition: transform 34ms;
+    filter: grayscale(0);
+  }
+  .thought-card:active {
+    transform: translateY(0px);
+    transition: transform 34ms;
+  }
+  .thought-card:not(:hover) {
+    filter: grayscale(0.5);
+  }
+
+.content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  }

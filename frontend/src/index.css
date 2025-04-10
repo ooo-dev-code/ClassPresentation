@@ -1,0 +1,6 @@
+body {
+    background: white;
+    margin: 0;
+    transition: all 1.3s ease-in-out;
+    overflow-x: hidden;
+}
