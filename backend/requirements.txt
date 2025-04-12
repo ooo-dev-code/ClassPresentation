@@ -1,7 +1,7 @@
 express
 mongoose
 dotenv
-jwtwebtoken
+jsonwebtoken
 bcrypt
 cors
 nodemon
