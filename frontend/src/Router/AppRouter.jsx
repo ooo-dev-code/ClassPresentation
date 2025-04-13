@@ -10,7 +10,7 @@ import Home from '../pages/Home'
 import Ratings from '../pages/Ratings'
 import Rates from '../pages/Rates'
 
-import NotFound from '../pages/NotFound'
+import NotFound from '../pages/NotFound' 
 
 function Router() {
 
