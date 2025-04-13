@@ -9,7 +9,7 @@ import HockeyCard from '../components/HomeCards/HockeyCard'
 import '../styles/Home.css'
 import { useNavigate } from 'react-router-dom'
 
-function Home() {
+function Home() { 
 
     const [rotation, setRotation] = useState(0);
     const { user } = useAuthContext()
